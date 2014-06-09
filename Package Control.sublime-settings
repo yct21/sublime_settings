@@ -1,0 +1,25 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"CTags",
+		"FindKeyConflicts",
+		"Git",
+		"GlassIt",
+		"GoToFile",
+		"IMESupport",
+		"Keymaps",
+		"Markdown Preview",
+		"Open URL",
+		"Package Control",
+		"PlainTasks",
+		"SideBarEnhancements",
+		"Terminal",
+		"Theme - Brogrammer",
+		"Theme - Phoenix",
+		"Theme - Soda",
+		"Theme - Sodarized",
+		"Theme - Spacegray",
+		"Zen Tabs"
+	]
+}

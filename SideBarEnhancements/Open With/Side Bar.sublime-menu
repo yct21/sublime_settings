@@ -1,0 +1,35 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//application 1
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Adobe Photoshop CS5.app", // OSX
+									"extensions":"psd|png|jpg|jpeg"  //any file with these extensions
+								}
+			},
+
+			// ultra edit
+			{
+				"caption": "UltraEdit",
+				"id": "side-bar-files-open-with-ultraedit",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\apps\\ue\\Uedit32.exe", // OSX
+									"extensions":"*"  //any file with these extensions
+								}
+			},
+
+			{"caption":"-"}
+		]
+	}
+]
