@@ -1,0 +1,8 @@
+{
+  "extensions":
+  [
+    "md"
+  ],
+  "spell_check": true,
+  "auto_complete": true
+}

@@ -1,25 +1,33 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"All Autocomplete",
+		"Better CoffeeScript",
+		"CoffeeScript",
 		"CTags",
+		"Elixir",
 		"FindKeyConflicts",
-		"Git",
 		"GlassIt",
 		"GoToFile",
 		"IMESupport",
+		"Jekyll",
 		"Keymaps",
 		"Markdown Preview",
 		"Open URL",
 		"Package Control",
-		"PlainTasks",
 		"SideBarEnhancements",
+		"SyncedSideBar",
 		"Terminal",
 		"Theme - Brogrammer",
 		"Theme - Phoenix",
 		"Theme - Soda",
 		"Theme - Sodarized",
 		"Theme - Spacegray",
+		"WakaTime",
 		"Zen Tabs"
 	]
 }
