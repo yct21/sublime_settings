@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"AAAPackageDev",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Better CoffeeScript",
