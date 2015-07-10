@@ -1,18 +1,12 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
-name: elixir test
+name: Elixir
 scopeName: source.elixir
 fileTypes: [iex, ex]
+uuid: D00C06B9-71B2-4FEB-A0E3-37237F579456
 
 patterns:
 - name: meta.test.elixir
   begin: '^\s*(with)\s*\"([^\"]*)\"'
-  beginCaptures:
-    '1': {name: keyword.other.elixir}
-    '2': {name: constant.string.elixir}
-  end: '^\send'
-  patterns:
-  - include: $self
-  - name: support.other.elixir
-    match: .
+  end: '\sdo'
 ...

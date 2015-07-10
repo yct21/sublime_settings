@@ -5,11 +5,13 @@
 	<key>name</key>
 	<string>symblo list</string>
 	<key>scope</key>
-	<string>source.elixir meta.test.elixir constant.string.elixir</string>
+	<string>source.elixir meta.test.elixir</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>s/(\s*)with\s*\"([^\"]*)\"\s*do/$1$1$2/g</string>
 	</dict>
 </dict>
 </plist>

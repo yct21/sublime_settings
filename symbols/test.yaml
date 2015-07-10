@@ -1,8 +1,8 @@
 # [PackageDev] target_format: plist, ext: tmPreferences
 ---
 name: symblo list
-scope: source.elixir meta.test.elixir constant.string.elixir
-
+scope: source.elixir meta.test.elixir
 settings:
   showInSymbolList: 1
+  symbolTransformation: s/(\s*)with\s*\"([^\"]*)\"\s*do/$1$1$2/g
 ...
